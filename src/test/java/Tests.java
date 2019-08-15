@@ -18,14 +18,14 @@ public class Tests extends BaseTest {
     }
 
 
-    @Test
+    /*@Test
     public void promotionalPriceOfGoods() throws InterruptedException {
         mainPage.clickPersonalCare()
                 .clickBathAndShowerPage();
         // .priceOfProductsSale();
 
 
-    }
+    }*/
 
     @Test
     public void AllPriceOfGoods() throws InterruptedException {
@@ -39,12 +39,12 @@ public class Tests extends BaseTest {
 
     }
 
-    @Test
+    /*@Test
     public void GoodsNotMeans() throws InterruptedException {
         mainPage.clickHouseholdСhemicals()
                 .clickCleaningAndWashingProducts();
 
-    }
+    }*/
 }
 
 

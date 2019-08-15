@@ -16,7 +16,7 @@ public class PersonalCarePage extends BasePage {
         return new HairCarePage();
     }
 
-
+    //нажать на кнопку "Ванна и душ"
     public BathAndShowerPage clickBathAndShowerPage() {
         getDriver().findElement(bathAndShower).click();
         return new BathAndShowerPage();
