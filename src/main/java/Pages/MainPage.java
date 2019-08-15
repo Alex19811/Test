@@ -9,9 +9,12 @@ import org.testng.Assert;
 public class MainPage extends BasePage {
 
     private static By newSelerText = By.xpath("/html/body//nav/ul[@class='clearix']//a[@href='https://eva.ua/brands/']");
+
     private static By personalCare = By.xpath("//body//nav/ul[@class='clearix']/li[2]/a[@href='https://eva.ua/024/uhod-soboj/']/span[.='УХОД ЗА СОБОЙ']");
     //private static By bathAndShower = By.xpath("/html//main[@id='maincontent']//div[@class='category-promo-column']/ul//a[@href='https://eva.ua/024-282/dlja-vanny-dusha/']");
     private static By hairCare = By.xpath("/html//main[@id='maincontent']//div[@class='category-promo-column']/ul//a[@href='https://eva.ua/024-104/uhod-volosami/']");
+    //переход на Бытовая химия
+    private static By householdСhemicals = By.xpath("//body[@class='cms- cmsadvanced-cmsadvanced-index page-layout-']//nav/ul[@class='clearix']/li[6]/a[@href='https://eva.ua/220/bytovaja-himija/']/span[.='БЫТОВАЯ ХИМИЯ']");
 
 
 //    private static By SelectLanguage = By.id("select-language");
@@ -43,6 +46,10 @@ public class MainPage extends BasePage {
         return new HairCarePage();
     }
 
+    public HouseholdСhemicalsPage clickHouseholdСhemicals() {
+        getDriver().findElement(householdСhemicals).click();
+        return new HouseholdСhemicalsPage();
+    }
 
 
 

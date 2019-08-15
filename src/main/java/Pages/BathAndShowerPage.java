@@ -8,6 +8,7 @@ import java.util.List;
 
 public class BathAndShowerPage extends BasePage{
 
+    //локатор товарыв на сторінціВанна та душ
     private static By showSelectionProducts = By.xpath("//div[1]/ul/li[7]");
 
   public BathAndShowerPage priceOfProductsSale() {

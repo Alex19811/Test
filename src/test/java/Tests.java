@@ -18,23 +18,40 @@ public class Tests extends BaseTest {
     }
 
 
+    /*
+        @Test
+        public void promotionalPriceOfGoods() throws InterruptedException {
+            mainPage.clickPersonalCare()
+                    .clickBathAndShowerPage();
+                   // .priceOfProductsSale();
+
+
+        }
+    */
+   /* @Test
+    public void AllPriceOfGoods() throws InterruptedException {
+        mainPage.clickPersonalCare();
+        HairCarePage hairCarePage = mainPage.clickHairCare()
+                //друга сторінка
+                .clickNextPage();
+
+                //третя сторінка
+                //.clickNextPage();
+
+
+    }*/
+
+
     @Test
-    public void promotionalPriceOfGoods() throws InterruptedException {
-        mainPage.clickPersonalCare()
-                .clickBathAndShowerPage();
-               // .priceOfProductsSale();
+    public void GoodsNotMeans() throws InterruptedException {
+        mainPage.clickHouseholdСhemicals()
+                .clickCleaningAndWashingProducts();
+
+
 
 
     }
-//        @Test
-//        public void AllPriceOfGoods () throws InterruptedException {
-//            mainPage.clickPersonalCare();
-//            HairCarePage hairCarePage = mainPage.clickHairCare();
-
-
 }
-
-
 
 
 
