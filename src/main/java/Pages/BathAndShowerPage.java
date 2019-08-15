@@ -8,13 +8,14 @@ import java.util.List;
 
 public class BathAndShowerPage extends BasePage{
 
-    private static By showSelectionProducts = By.xpath("/html//main[@id='maincontent']//div[.='Акция!']");
+    private static By showSelectionProducts = By.xpath("//div[1]/ul/li[7]");
 
-  /*public BathAndShowerPage setPriceOfProductsSale() {
+  public BathAndShowerPage priceOfProductsSale() {
       WebElement element = driver.findElement (showSelectionProducts);
-              System.out.println(setPriceOfProductsSale());
+
+              System.out.println(element);
       return this;
-  }*/
+  }
 }
 
 

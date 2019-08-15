@@ -8,8 +8,8 @@ import org.testng.Assert;
 
 public class MainPage extends BasePage {
 
-    private static By newSelerText = By.xpath("/html/body[@class='cms- cmsadvanced-cmsadvanced-index page-layout- popmechanic-desktop']//nav/ul[@class='clearix']//a[@href='https://eva.ua/brands/']");
-    private static By personalCare = By.xpath("//body[@class='cms- cmsadvanced-cmsadvanced-index page-layout- popmechanic-desktop']//nav/ul[@class='clearix']/li[2]/a[@href='https://eva.ua/024/uhod-soboj/']/span[.='УХОД ЗА СОБОЙ']");
+    private static By newSelerText = By.xpath("/html/body//nav/ul[@class='clearix']//a[@href='https://eva.ua/brands/']");
+    private static By personalCare = By.xpath("//body//nav/ul[@class='clearix']/li[2]/a[@href='https://eva.ua/024/uhod-soboj/']/span[.='УХОД ЗА СОБОЙ']");
     //private static By bathAndShower = By.xpath("/html//main[@id='maincontent']//div[@class='category-promo-column']/ul//a[@href='https://eva.ua/024-282/dlja-vanny-dusha/']");
     private static By hairCare = By.xpath("/html//main[@id='maincontent']//div[@class='category-promo-column']/ul//a[@href='https://eva.ua/024-104/uhod-volosami/']");
 
@@ -26,10 +26,13 @@ public class MainPage extends BasePage {
        Assert.assertEquals(getDriver().findElement(newSelerText).getText(), "БРЕНДЫ");
     }
 
-    public PersonalCarePage clickPersonalCarePage() {
+    public PersonalCarePage clickPersonalCare() {
         getDriver().findElement(personalCare).click();
         return new PersonalCarePage();
     }
+
+
+
 
 //    public BathAndShowerPage clickBathAndShowerPage() {
 //        getDriver().findElement(bathAndShower).click();

@@ -20,16 +20,25 @@ public class Tests extends BaseTest {
 
     @Test
     public void promotionalPriceOfGoods() throws InterruptedException {
-        mainPage.clickPersonalCarePage()
+        mainPage.clickPersonalCare()
                 .clickBathAndShowerPage();
-        //.setPriceOfProductsSale();
-        //BathAndShowerPage personalCarePage = mainPage.clickBathAndShowerPage();
+               // .priceOfProductsSale();
+
 
     }
-        @Test
-        public void AllPriceOfGoods () throws InterruptedException {
-            mainPage.clickPersonalCarePage();
-            HairCarePage hairCarePage = mainPage.clickHairCare();
+//        @Test
+//        public void AllPriceOfGoods () throws InterruptedException {
+//            mainPage.clickPersonalCare();
+//            HairCarePage hairCarePage = mainPage.clickHairCare();
+
+
+}
+
+
+
+
+
+
 
 
 //        Assert.assertEquals (electonicsPage.getNumberPresentProducts(),electonicsPage.getCounterValue(),"messege");
@@ -127,8 +136,8 @@ public class Tests extends BaseTest {
 //        Thread.sleep(3000);
 //    }
 
-        }
-    }
+       //}
+    //}
 
 // RegisterPage registerPage = new RegisterPage();
 //        Assert.assertTrue(registerPage.isUserNamePresent());
