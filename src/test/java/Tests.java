@@ -18,40 +18,38 @@ public class Tests extends BaseTest {
     }
 
 
-    /*
-        @Test
-        public void promotionalPriceOfGoods() throws InterruptedException {
-            mainPage.clickPersonalCare()
-                    .clickBathAndShowerPage();
-                   // .priceOfProductsSale();
+    @Test
+    public void promotionalPriceOfGoods() throws InterruptedException {
+        mainPage.clickPersonalCare()
+                .clickBathAndShowerPage();
+        // .priceOfProductsSale();
 
 
-        }
-    */
-   /* @Test
+    }
+
+    @Test
     public void AllPriceOfGoods() throws InterruptedException {
-        mainPage.clickPersonalCare();
-        HairCarePage hairCarePage = mainPage.clickHairCare()
-                //друга сторінка
+        mainPage.clickPersonalCare()
+                .clickHairCare()
                 .clickNextPage();
 
-                //третя сторінка
-                //.clickNextPage();
+        //третя сторінка
+        //.clickNextPage();
 
 
-    }*/
-
+    }
 
     @Test
     public void GoodsNotMeans() throws InterruptedException {
         mainPage.clickHouseholdСhemicals()
                 .clickCleaningAndWashingProducts();
 
-
-
-
     }
 }
+
+
+
+
 
 
 
@@ -153,8 +151,8 @@ public class Tests extends BaseTest {
 //        Thread.sleep(3000);
 //    }
 
-       //}
-    //}
+//}
+//}
 
 // RegisterPage registerPage = new RegisterPage();
 //        Assert.assertTrue(registerPage.isUserNamePresent());
