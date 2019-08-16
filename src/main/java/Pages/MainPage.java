@@ -9,10 +9,16 @@ import org.testng.Assert;
 public class MainPage extends BasePage {
 
     private static By newSelerText = By.xpath("/html/body//nav/ul[@class='clearix']//a[@href='https://eva.ua/brands/']");
+   // private static By newSelerText = By.xpath("//a[@class='top-level-a' and text()='Бренды']");
+
     private static By personalCare = By.xpath("//body//nav/ul[@class='clearix']/li[2]/a[@href='https://eva.ua/024/uhod-soboj/']/span[.='УХОД ЗА СОБОЙ']");
+    //private static By personalCare = By.xpath("//a[@class='top-level-a']//span[text()='УХОД ЗА СОБОЙ']");
+
+//вспливаюче вікно
+private static By closeWindow = By.xpath("//a[contains(@class,'btn-location-close js-hide-location')]");
 
     //переход на Бытовая химия
-    private static By householdСhemicals = By.xpath("//body[@class='cms- cmsadvanced-cmsadvanced-index page-layout-']//nav/ul[@class='clearix']/li[6]/a[@href='https://eva.ua/220/bytovaja-himija/']/span[.='БЫТОВАЯ ХИМИЯ']");
+    private static By householdСhemicals = By.xpath("//a[@class='top-level-a']//span[text()='БЫТОВАЯ ХИМИЯ']");
 //    private static By SelectLanguage = By.id("select-language");
 
 
@@ -20,6 +26,11 @@ public class MainPage extends BasePage {
        Assert.assertEquals(getDriver().findElement(newSelerText).getText(), "БРЕНДЫ");
     }
 
+    //вспливаюче вікно
+    public MainPage clickCloseWindow() {
+        getDriver().findElement(closeWindow).click();
+        return this;
+    }
     //нажать на кнопку "Уход за собой"
     public PersonalCarePage clickPersonalCare() {
         getDriver().findElement(personalCare).click();

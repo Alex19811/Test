@@ -1,6 +1,7 @@
 package Pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
 public class HairCarePage extends BasePage {
 
@@ -13,6 +14,8 @@ public class HairCarePage extends BasePage {
         getDriver().findElement(nextPage).click();
         return new HairCarePage();
     }
+
+
 
 
 

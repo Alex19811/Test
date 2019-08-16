@@ -5,9 +5,11 @@ import org.openqa.selenium.By;
 
 public class PersonalCarePage extends BasePage {
 
-    private static By hairCare = By.xpath("/html//main[@id='maincontent']//div[@class='category-promo-column']/ul//a[@href='https://eva.ua/024-104/uhod-volosami/']");
+    // уход за волосами
+    private static By hairCare = By.xpath("//ul//li//a[ text()='Уход за волосами']");
 
-    private static By bathAndShower = By.xpath("//div[1]/ul/li[7]");
+    //Для ванны и душа!!!
+    private static By bathAndShower = By.xpath("//ul//li//a[ text()='Для ванны и душа']");
 
 
     //нажать на кнопку "Уход за волосами"

@@ -8,17 +8,24 @@ import java.util.List;
 
 public class BathAndShowerPage extends BasePage{
 
-    //локатор товарыв на сторінціВанна та душ
-    private static By showSelectionProducts = By.xpath("//div[1]/ul/li[7]");
+
+    //локатор списка товарів для ванни і душу
+    private static By showSelectionProducts = By.xpath("/html//ol[@id='product-listing-wrap']");
 
   public BathAndShowerPage priceOfProductsSale() {
-      WebElement element = driver.findElement (showSelectionProducts);
-
-              System.out.println(element);
+      List<WebElement> items = (List<WebElement>) driver.findElements (showSelectionProducts);
+//items.get(0)
+//      items.get(0).find(тут шукаэш назву).getText());
+//              System.out.println(items);
       return this;
   }
 }
 
+//    public int getColumnCount() {
+//        List<WebElement> tableRows = _webTable.findElements(By.tagName("tr"));
+//        WebElement headerRow = tableRows.get(0);
+//        List<WebElement> tableCols = headerRow.findElements(By.tagName("td"));
+//        return tableCols.size();
 
 
 

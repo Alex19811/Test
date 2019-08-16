@@ -12,7 +12,7 @@ public class BasePage {
     }
 
     public static WebDriver getDriver() {
-        //((JavascriptExecutor)driver).executeScript("document.getElementById('fixedban').style.display = 'none';");
+       ((JavascriptExecutor)driver).executeScript("document.getElementById('fixedban').style.display = 'none';");
         return driver;
     }
 }
