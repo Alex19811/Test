@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8889510e-2d20-4bbf-a0f2-1b92682607ec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/BathAndShowerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/BathAndShowerPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/HouseholdСhemicalsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/HouseholdСhemicalsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,12 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Pages/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="e#1201#1202#0" expanded="true" />
-                <element signature="e#1294#1295#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -54,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Pages/HouseholdСhemicalsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="136">
+              <caret line="8" column="105" selection-start-line="8" selection-start-column="105" selection-end-line="8" selection-end-column="105" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Pages/CleaningAndWashingProductsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="153">
+              <caret line="9" column="98" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="98" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="382">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -96,21 +99,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Pages/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="14" column="113" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="113" />
+            <state relative-caret-position="187">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding>
                 <element signature="e#221#222#0" expanded="true" />
                 <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Pages/BathAndShowerPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="42">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,7 +127,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Pages/PersonalCarePage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+              <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -143,16 +148,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Pages/HomeAndDecorPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Pages/HouseholdСhemicalsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/CleaningAndWashingProductsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/HairCarePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Pages/BasePage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/PersonalCarePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Pages/BathAndShowerPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Tests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/HouseholdСhemicalsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Tests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/BathAndShowerPage.java" />
       </list>
     </option>
   </component>
@@ -163,7 +168,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="8" />
     <option name="y" value="20" />
     <option name="width" value="1262" />
@@ -176,7 +181,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,6 +231,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,7 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Tests (1)">
+  <component name="RunManager" selected="TestNG.Tests.promotionalPriceOfGoods">
     <configuration name="Tests (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Test" />
       <option name="PACKAGE_NAME" value="" />
@@ -316,8 +321,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Tests (1)" />
         <item itemvalue="TestNG.Tests.promotionalPriceOfGoods" />
+        <item itemvalue="TestNG.Tests (1)" />
         <item itemvalue="TestNG.Tests.GoodsNotMeans" />
         <item itemvalue="TestNG.Tests.AllPriceOfGoods" />
         <item itemvalue="TestNG.Tests" />
@@ -391,31 +396,17 @@
       <option name="project" value="LOCAL" />
       <updated>1565968713234</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="15082019">
+      <created>1566029985237</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1566029985237</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests_(1) - 2019.08.16 at 15h 28m 33s.xml">
-      <configuration name="Tests (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Tests_(1) - 2019.08.16 at 16h 31m 41s.xml">
-      <configuration name="Tests (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Tests_(1) - 2019.08.16 at 16h 33m 14s.xml">
-      <configuration name="Tests (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Tests_promotionalPriceOfGoods - 2019.08.16 at 16h 34m 16s.xml">
-      <configuration name="Tests.promotionalPriceOfGoods" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Tests_promotionalPriceOfGoods - 2019.08.16 at 16h 35m 53s.xml">
-      <configuration name="Tests.promotionalPriceOfGoods" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Tests_promotionalPriceOfGoods - 2019.08.16 at 16h 38m 43s.xml">
-      <configuration name="Tests.promotionalPriceOfGoods" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Tests_(1) - 2019.08.16 at 16h 40m 37s.xml">
-      <configuration name="Tests (1)" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Tests_promotionalPriceOfGoods - 2019.08.16 at 18h 24m 37s.xml">
       <configuration name="Tests.promotionalPriceOfGoods" configurationId="TestNG" />
     </history-entry>
@@ -425,11 +416,33 @@
     <history-entry file="Tests_(1) - 2019.08.16 at 18h 29m 42s.xml">
       <configuration name="Tests (1)" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="Tests_(1) - 2019.08.17 at 11h 42m 30s.xml">
+      <configuration name="Tests (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tests_(1) - 2019.08.17 at 16h 51m 26s.xml">
+      <configuration name="Tests (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tests_promotionalPriceOfGoods - 2019.08.17 at 18h 11m 47s.xml">
+      <configuration name="Tests.promotionalPriceOfGoods" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tests_promotionalPriceOfGoods - 2019.08.17 at 21h 43m 07s.xml">
+      <configuration name="Tests.promotionalPriceOfGoods" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tests_promotionalPriceOfGoods - 2019.08.17 at 22h 33m 29s.xml">
+      <configuration name="Tests.promotionalPriceOfGoods" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tests_promotionalPriceOfGoods - 2019.08.17 at 23h 06m 41s.xml">
+      <configuration name="Tests.promotionalPriceOfGoods" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tests_promotionalPriceOfGoods - 2019.08.17 at 23h 13m 00s.xml">
+      <configuration name="Tests.promotionalPriceOfGoods" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="8" y="20" width="1262" height="944" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17475729" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18469217" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -438,7 +451,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30219147" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32305795" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39907727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -483,10 +496,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/CleaningAndWashingProductsPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/CleaningAndWashingProductsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="98" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/HouseholdСhemicalsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="105" selection-start-line="8" selection-start-column="105" selection-end-line="8" selection-end-column="105" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -503,66 +546,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/HouseholdСhemicalsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/PersonalCarePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/BathAndShowerPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#1201#1202#0" expanded="true" />
-            <element signature="e#1294#1295#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="113" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="113" />
-          <folding>
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        <state relative-caret-position="68">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="382">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/BathAndShowerPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

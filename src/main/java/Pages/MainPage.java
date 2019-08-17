@@ -8,11 +8,11 @@ import org.testng.Assert;
 
 public class MainPage extends BasePage {
 
-    private static By newSelerText = By.xpath("/html/body//nav/ul[@class='clearix']//a[@href='https://eva.ua/brands/']");
-   // private static By newSelerText = By.xpath("//a[@class='top-level-a' and text()='Бренды']");
+   // private static By newSelerText = By.xpath("/html/body//nav/ul[@class='clearix']//a[@href='https://eva.ua/brands/']");
+    private static By newSelerText = By.xpath("//a[@class='top-level-a' and text()='Бренды']");
 
-    private static By personalCare = By.xpath("//body//nav/ul[@class='clearix']/li[2]/a[@href='https://eva.ua/024/uhod-soboj/']/span[.='УХОД ЗА СОБОЙ']");
-    //private static By personalCare = By.xpath("//a[@class='top-level-a']//span[text()='УХОД ЗА СОБОЙ']");
+    //private static By personalCare = By.xpath("//body//nav/ul[@class='clearix']/li[2]/a[@href='https://eva.ua/024/uhod-soboj/']/span[.='УХОД ЗА СОБОЙ']");
+    private static By personalCare = By.xpath("//a[@class='top-level-a']//span[text()='УХОД ЗА СОБОЙ']");
 
 //вспливаюче вікно
 private static By closeWindow = By.xpath("//a[contains(@class,'btn-location-close js-hide-location')]");
