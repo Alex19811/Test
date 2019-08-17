@@ -20,7 +20,7 @@ public class Tests extends BaseTest {
 
     @Test
     public void promotionalPriceOfGoods() throws InterruptedException {
-     //  Thread.sleep(15000);
+       Thread.sleep(15000);
         mainPage.clickCloseWindow()
                 .clickPersonalCare()
                 .clickBathAndShowerPage();
@@ -30,7 +30,7 @@ public class Tests extends BaseTest {
 
     }
 
-   /* @Test
+    @Test
     public void AllPriceOfGoods() throws InterruptedException {
         mainPage.clickPersonalCare()
                 .clickHairCare()
@@ -40,9 +40,9 @@ public class Tests extends BaseTest {
         //.clickNextPage();
 
 
-    }*/
+    }
 
-    /*@Test
+    @Test
     public void GoodsNotMeans() throws InterruptedException {
         Thread.sleep(15000);
         mainPage.clickCloseWindow()
@@ -50,7 +50,7 @@ public class Tests extends BaseTest {
 
                 //.clickCleaningAndWashingProducts();
 
-    }*/
+    }
 }
 
 

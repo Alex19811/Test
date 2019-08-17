@@ -22,15 +22,17 @@ private static By closeWindow = By.xpath("//a[contains(@class,'btn-location-clos
 //    private static By SelectLanguage = By.id("select-language");
 
 
-    public MainPage() {
-       Assert.assertEquals(getDriver().findElement(newSelerText).getText(), "БРЕНДЫ");
-    }
 
     //вспливаюче вікно
     public MainPage clickCloseWindow() {
         getDriver().findElement(closeWindow).click();
         return this;
     }
+
+    public MainPage() {
+        Assert.assertEquals(getDriver().findElement(newSelerText).getText(), "БРЕНДЫ");
+    }
+
     //нажать на кнопку "Уход за собой"
     public PersonalCarePage clickPersonalCare() {
         getDriver().findElement(personalCare).click();
