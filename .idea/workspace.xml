@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8889510e-2d20-4bbf-a0f2-1b92682607ec" name="Default Changelist" comment="17082019">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PerlinkaPages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PerlinkaPages/ForBoyPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PerlinkaPages/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PerlinkaTest/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PerlinkaTest/Tests.java" afterDir="false" />
+    <list default="true" id="8889510e-2d20-4bbf-a0f2-1b92682607ec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_4_0_0_alpha_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Pages/BathAndShowerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/BathAndShowerPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/HairCarePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/HairCarePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,83 +28,95 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Pages/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+            <state relative-caret-position="408">
+              <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunnerWorker.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PerlinkaTest/BaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="18" column="45" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PerlinkaTest/Tests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PerlinkaPages/BasePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PerlinkaPages/MainPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PerlinkaPages/ForBoyPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="442">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/4.0.0-alpha-1/selenium-remote-driver-4.0.0-alpha-1.jar!/org/openqa/selenium/remote/codec/w3c/W3CHttpResponseCodec.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/4.0.0-alpha-1/selenium-remote-driver-4.0.0-alpha-1.jar!/org/openqa/selenium/remote/HttpCommandExecutor.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1139">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/4.0.0-alpha-1/selenium-remote-driver-4.0.0-alpha-1.jar!/org/openqa/selenium/remote/service/DriverCommandExecutor.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/4.0.0-alpha-1/selenium-remote-driver-4.0.0-alpha-1.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6120">
+              <caret line="496" selection-start-line="496" selection-end-line="496" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/4.0.0-alpha-1/selenium-remote-driver-4.0.0-alpha-1.jar!/org/openqa/selenium/remote/RemoteWebElement.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
+              <folding>
+                <element signature="e#2325#2326#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Pages/BathAndShowerPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+            <state relative-caret-position="110">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/asserts/SoftAssert.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
         </entry>
@@ -124,13 +138,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Pages/HomeAndDecorPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/CleaningAndWashingProductsPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Pages/HairCarePage.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/PersonalCarePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/BasePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/HouseholdСhemicalsPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Pages/MainPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/PerlinkaPages/BasePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/PerlinkaTest/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/PerlinkaPages/forBoyPage.java" />
@@ -138,8 +149,11 @@
         <option value="$PROJECT_DIR$/src/main/java/PerlinkaPages/ForBoyPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/PerlinkaPages/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/PerlinkaTest/Tests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Tests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/HairCarePage.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/MainPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/BathAndShowerPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Tests.java" />
       </list>
     </option>
   </component>
@@ -162,6 +176,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -213,7 +228,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -399,46 +413,59 @@
       <option name="project" value="LOCAL" />
       <updated>1566073127589</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="17082019">
+      <created>1566119708165</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1566119708166</updated>
+    </task>
+    <task id="LOCAL-00012" summary="18082019">
+      <created>1566120444148</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1566120444148</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests_(1) - 2019.08.17 at 16h 51m 26s.xml">
+    <history-entry file="Tests_(1) - 2019.08.18 at 19h 49m 19s.xml">
       <configuration name="Tests (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests_promotionalPriceOfGoods - 2019.08.17 at 18h 11m 47s.xml">
-      <configuration name="Tests.promotionalPriceOfGoods" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Tests_promotionalPriceOfGoods - 2019.08.17 at 21h 43m 07s.xml">
-      <configuration name="Tests.promotionalPriceOfGoods" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Tests_promotionalPriceOfGoods - 2019.08.17 at 22h 33m 29s.xml">
-      <configuration name="Tests.promotionalPriceOfGoods" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Tests_promotionalPriceOfGoods - 2019.08.17 at 23h 06m 41s.xml">
-      <configuration name="Tests.promotionalPriceOfGoods" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Tests_promotionalPriceOfGoods - 2019.08.17 at 23h 13m 00s.xml">
-      <configuration name="Tests.promotionalPriceOfGoods" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Tests_promotionalPriceOfGoods - 2019.08.18 at 00h 06m 04s.xml">
-      <configuration name="Tests.promotionalPriceOfGoods" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Tests_(1) - 2019.08.18 at 09h 48m 46s.xml">
+    <history-entry file="Tests_(1) - 2019.08.18 at 19h 52m 11s.xml">
       <configuration name="Tests (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests_promotionalPriceOfGoods - 2019.08.18 at 10h 05m 13s.xml">
-      <configuration name="Tests.promotionalPriceOfGoods" configurationId="TestNG" />
+    <history-entry file="Tests_(1) - 2019.08.18 at 19h 56m 33s.xml">
+      <configuration name="Tests (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests_(1) - 2019.08.18 at 10h 09m 54s.xml">
+    <history-entry file="Tests_(1) - 2019.08.18 at 19h 59m 57s.xml">
+      <configuration name="Tests (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tests_(1) - 2019.08.18 at 20h 02m 51s.xml">
+      <configuration name="Tests (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tests_(1) - 2019.08.18 at 20h 04m 39s.xml">
+      <configuration name="Tests (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tests_(1) - 2019.08.18 at 20h 08m 06s.xml">
+      <configuration name="Tests (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tests_(1) - 2019.08.18 at 22h 11m 42s.xml">
+      <configuration name="Tests (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tests_(1) - 2019.08.18 at 22h 35m 36s.xml">
+      <configuration name="Tests (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tests_(1) - 2019.08.18 at 22h 37m 31s.xml">
       <configuration name="Tests (1)" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="20" width="1262" height="944" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18801996" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19134775" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -447,15 +474,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32305795" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39907727" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32305795" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39827374" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3298731" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3292232" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -470,7 +497,8 @@
     <MESSAGE value="14082019" />
     <MESSAGE value="15082019" />
     <MESSAGE value="17082019" />
-    <option name="LAST_COMMIT_MESSAGE" value="17082019" />
+    <MESSAGE value="18082019" />
+    <option name="LAST_COMMIT_MESSAGE" value="18082019" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/MyDashboardPage.java" />
@@ -479,13 +507,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/LogInPage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/MyWhishlistPage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/SalePage.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/debug.log">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -526,16 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/HairCarePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/PersonalCarePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -544,13 +555,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PerlinkaPages/SelectProduct.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PerlinkaTest/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -586,27 +590,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/MainPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/HairCarePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        <state relative-caret-position="221">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="-1869">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunnerWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/4.0.0-alpha-1/selenium-remote-driver-4.0.0-alpha-1.jar!/org/openqa/selenium/remote/codec/w3c/W3CHttpResponseCodec.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/4.0.0-alpha-1/selenium-remote-driver-4.0.0-alpha-1.jar!/org/openqa/selenium/remote/HttpCommandExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/4.0.0-alpha-1/selenium-remote-driver-4.0.0-alpha-1.jar!/org/openqa/selenium/remote/service/DriverCommandExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/4.0.0-alpha-1/selenium-remote-driver-4.0.0-alpha-1.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6120">
+          <caret line="496" selection-start-line="496" selection-end-line="496" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/4.0.0-alpha-1/selenium-remote-driver-4.0.0-alpha-1.jar!/org/openqa/selenium/remote/RemoteWebElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="e#2325#2326#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/asserts/SoftAssert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/BathAndShowerPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        <state relative-caret-position="110">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
         </state>
       </provider>
     </entry>

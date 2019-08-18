@@ -4,6 +4,7 @@ import Pages.*;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import static Pages.BasePage.getDriver;
 
@@ -21,12 +22,15 @@ public class Tests extends BaseTest {
     @Test
     public void promotionalPriceOfGoods() throws InterruptedException {
         //Thread.sleep(15000);
-        mainPage.clickCloseWindow()
+        BathAndShowerPage bathAndShowerPage;
+        bathAndShowerPage = mainPage.clickCloseWindow()
                 .clickPersonalCare()
-                .clickBathAndShowerPage()
-                .priceOfProductsSale();
-
-
+                .clickBathAndShowerPage();
+        SoftAssert softAssert = new SoftAssert();
+        softAssert.assertEquals(bathAndShowerPage.isRandomProductNotHavePromo(), "Product has old price value");
+        softAssert.assertEquals(bathAndShowerPage.isRandomProductNotHavePromo(), "Product has old price value");
+        softAssert.assertEquals(bathAndShowerPage.isRandomProductNotHavePromo(), "Product has old price value");
+        softAssert.assertAll();
     }
 
     /*@Test
@@ -51,9 +55,7 @@ public class Tests extends BaseTest {
                 //.clickCleaningAndWashingProducts();
 
     }*/
-}
-
-
+    }
 
 
 //        Assert.assertEquals (electonicsPage.getNumberPresentProducts(),electonicsPage.getCounterValue(),"messege");

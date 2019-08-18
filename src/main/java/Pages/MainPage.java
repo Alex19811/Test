@@ -29,9 +29,9 @@ private static By closeWindow = By.xpath("//a[contains(@class,'btn-location-clos
         return this;
     }
 
-    public MainPage() {
-        Assert.assertEquals(getDriver().findElement(newSelerText).getText(), "БРЕНДЫ");
-    }
+    //public MainPage() {
+      //  Assert.assertEquals(getDriver().findElement(newSelerText).getText(), "БРЕНДЫ");
+    //}
 
     //нажать на кнопку "Уход за собой"
     public PersonalCarePage clickPersonalCare() {
