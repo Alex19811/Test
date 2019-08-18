@@ -16,10 +16,9 @@ public class BathAndShowerPage extends BasePage {
 
     public void priceOfProductsSale() {
         List<WebElement> items = driver.findElements(showSelectionProductsSale);
-
         for (int i = 0; i < items.size(); i++) {
-            if ( items.get(i).getText();
-            items.get(0).findElement(i).getText("old-price"));
+            System.out.println("ProductsSale:" + items.get(i).getAttribute("old-price"));
+
         }
 
 
