@@ -9,16 +9,20 @@ public class BathAndShowerPage extends BasePage {
 
 
     //локатор списка товарів для ванни і душу
-        //локатор всіх товарів на сторінці
-    // private static By showSelectionProductsSale = By.xpath("//div[@class='product-item-info']//div[@class='product_box']");
-    private static By showSelectionProductsSale = By.xpath("//div[@class='product-item-info']//div[@class='product_box']");
 
-    //локатор слова акція
-    //div[@class='product-item-info']//div[.='Акция!']
+    private static By showSelectionProductsSale = By.xpath("//div[contains(@class,'product-label')]/parent::div[@class='product_box']");
+
+
 
     public void priceOfProductsSale() {
         List<WebElement> items = driver.findElements(showSelectionProductsSale);
-     // items.get(0).findElement( тут шукаэш назву).getText("old-price"));
+
+        for (int i = 0; i < items.size(); i++) {
+            if ( items.get(i).getText();
+            items.get(0).findElement(i).getText("old-price"));
+        }
+
+
 //
 //          Assert.assertEquals(getDriver().findElement(newSelerText).getText(), "БРЕНДЫ");
 //     }

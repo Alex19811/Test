@@ -1,11 +1,8 @@
+package PerlinkaTest;
 
-import Pages.*;
-
-import org.testng.Assert;
+import Pages.MainPage;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
-import static Pages.BasePage.getDriver;
 
 public class Tests extends BaseTest {
 
@@ -18,16 +15,16 @@ public class Tests extends BaseTest {
     }
 
 
-    @Test
-    public void promotionalPriceOfGoods() throws InterruptedException {
-        //Thread.sleep(15000);
+    /*@Test //"https://www.perlinka.ua/"
+    public void ionalPriceOfGoods() throws InterruptedException {
+     //   Thread.sleep(15000);
         mainPage.clickCloseWindow()
                 .clickPersonalCare()
                 .clickBathAndShowerPage()
                 .priceOfProductsSale();
 
 
-    }
+    }*/
 
     /*@Test
     public void AllPriceOfGoods() throws InterruptedException {
