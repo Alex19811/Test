@@ -1,25 +1,32 @@
 package Pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
+import java.util.List;
 
 public class HairCarePage extends BasePage {
 
-    //локатор наступна сторінка
-    private static By nextPage = By.xpath("//div[@id='amasty-shopby-product-list']//ul[@class='items pages-items']/li[@class='item pages-item-next']");
 
-    //Всы товари
-    private static By products = By.xpath("//div[@class='product_box']");
-
-    //Клік на наступну сторінку (чи потрібно на кнопку 2)
+    private By allProductsHairCare = By.xpath("//div[@class='product_box']");
+    private By productOfPrice = By.xpath(".//span[contains(@id,'product-price')]");
+    private By productName = By.xpath(".//a[contains(@class, 'product-item-link')]");
+    private static By nextPage = By.xpath("//li[@class='item pages-item-next']");
 
     public HairCarePage clickNextPage() {
         getDriver().findElement(nextPage).click();
         return new HairCarePage();
     }
 
-
-
-
+    public String isProductNotHavePrice() {
+        int items = 0;
+        List<WebElement> products = driver.findElements(allProductsHairCare);
+        try {
+            products.get(items).findElement(productOfPrice);
+        } catch (NoSuchElementException e) {
+            return products.get(items).findElement(productName).getText();
+        }
+        return "Product has price value";
+    }
 
 }
