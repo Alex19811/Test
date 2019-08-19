@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8889510e-2d20-4bbf-a0f2-1b92682607ec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/CleaningAndWashingProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/CleaningAndWashingProductsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/HairCarePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/HairCarePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/HouseholdСhemicalsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/HouseholdСhemicalsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -438,7 +434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566157528843</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="18082019">
+      <created>1566223778488</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1566223778488</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">

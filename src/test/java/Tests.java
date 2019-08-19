@@ -51,7 +51,7 @@ public class Tests extends BaseTest {
         softAssert3.assertAll();
 
     }
-   /* @Test
+    /*@Test
     public void GoodsNotMeans() throws InterruptedException {
         //Thread.sleep(15000);
         HouseholdСhemicalsPage householdСhemicalsPage = mainPage.clickCloseWindow()
@@ -68,8 +68,8 @@ public class Tests extends BaseTest {
 
                 //.clickCleaningAndWashingProducts();
 
-    }
-}*/
+    }*/
+}
 
 //        Assert.assertEquals (electonicsPage.getNumberPresentProducts(),electonicsPage.getCounterValue(),"messege");
 //        Thread.sleep(3000);
