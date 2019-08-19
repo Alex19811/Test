@@ -10,33 +10,28 @@ import java.util.Random;
 
 public class CleaningAndWashingProductsPage extends BasePage {
 
-
-    //локатор товарів на першій сторінці
-    private static By allCleaningAndWashingProducts = By.xpath(".//span[contains(@id,'product-price')]");
+    private static By allCleaningAndWashingProducts = By.xpath("//div[@class='product_box']");
     private By productName = By.xpath(".//a[contains(@class, 'product-item-link')]");
-
-//Найти товары наименование которых не начинается с "Средство
-    // и вывести информацию о упавшем тесте"
 
     private int getQuantityOfAllProducts() {
         List<WebElement> products = driver.findElements(allCleaningAndWashingProducts);
         return products.size();
     }
 
-    private int getRandomProductNumber() {
-        int min = 0;
-        int max = getQuantityOfAllProducts()-1;
-        return new Random().nextInt(max - min + 1) + min;
+    private int getQuantityOfAllCleaningAndWashingProducts() {
+        List<WebElement> products = driver.findElements(allCleaningAndWashingProducts);
+        return products.size();
     }
+    public String isProductNotHaveName() {
 
-    public String isRandomProductNotHavePromo() {
-        int random = getRandomProductNumber();
+        int items = getQuantityOfAllCleaningAndWashingProducts();
         List<WebElement> products = driver.findElements(allCleaningAndWashingProducts);
         try {
-            products.get(random).findElement(allCleaningAndWashingProducts);
+            products.get(0).findElement(productName);
         } catch (NoSuchElementException e) {
-            return products.get(random).findElement(productName).getText();
+            return products.get(items).findElement(productName).getText();
         }
-        return "Product has price value";
+        return "Product has name value";
+
     }
 }
