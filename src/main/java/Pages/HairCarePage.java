@@ -11,14 +11,13 @@ public class HairCarePage<puplic> extends BasePage {
     private By allProductsHairCare = By.xpath("//div[@class='product_box']");
     private By productOfPrice = By.xpath(".//span[contains(@id,'product-price')]");
     private By productName = By.xpath(".//a[contains(@class, 'product-item-link')]");
-    private static By nextPage = By.xpath("//li[@class='item pages-item-next']");
-    private static By allPage = By.xpath("//ul[@class='items pages-items']");
-    //strong[contains(@class,'page')]
+   // private static By nextPage = By.xpath("//li[@class='item pages-item-next']");
+    private static By allPage = By.xpath("//div[@class='pages']");
 
-    public HairCarePage clickNextPage() {
+   /* public HairCarePage clickNextPage() {
         getDriver().findElement(nextPage).click();
         return new HairCarePage();
-    }
+    }*/
 
     private int getQuantityOfAllProducts() {
         List<WebElement> products = driver.findElements(allProductsHairCare);
@@ -35,7 +34,6 @@ public class HairCarePage<puplic> extends BasePage {
         return page.size();
     }
 
-
     public String isProductNotHavePrice() {
 
        List<WebElement> products = driver.findElements(allProductsHairCare);
@@ -46,51 +44,16 @@ public class HairCarePage<puplic> extends BasePage {
             page.get(i).findElements(allPage);
             for (int j = 0; j < products.size(); j++) {
                 products.get(j).findElements(productOfPrice);
-
-                // page++;
                 i++;
-
                 try {
                     products.get(j).findElement(productOfPrice);
                 } catch (NoSuchElementException e) {
                     return products.get(j).findElement(productName).getText();
                 }
-                return "Product has price value";
             }
-
         }
         return "Product has price value";
     }
 }
 
 
-
-
-
-
-
-
-
-/*
-    private By allProductsHairCare = By.xpath("//div[@class='product_box']");
-    private By productOfPrice = By.xpath(".//span[contains(@id,'product-price')]");
-    private By productName = By.xpath(".//a[contains(@class, 'product-item-link')]");
-    private static By nextPage = By.xpath("//li[@class='item pages-item-next']");
-
-    public HairCarePage clickNextPage() {
-        getDriver().findElement(nextPage).click();
-        return new HairCarePage();
-    }
-
-    public String isProductNotHavePrice() {
-        int items = 0;
-        List<WebElement> products = driver.findElements(allProductsHairCare);
-        try {
-            products.get(items).findElement(productOfPrice);
-        } catch (NoSuchElementException e) {
-            return products.get(items).findElement(productName).getText();
-        }
-        return "Product has price value";
-    }
-
-}*/

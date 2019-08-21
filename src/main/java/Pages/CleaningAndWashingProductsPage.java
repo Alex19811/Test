@@ -13,12 +13,7 @@ public class CleaningAndWashingProductsPage extends BasePage {
     private static By allCleaningAndWashingProducts = By.xpath("//div[@class='product_box']");
     private By productName = By.xpath(".//a[contains(@class, 'product-item-link')]");
 
-    private int getQuantityOfAllProducts() {
-        List<WebElement> products = driver.findElements(allCleaningAndWashingProducts);
-        return products.size();
-    }
-
-    private int getQuantityOfAllCleaningAndWashingProducts() {
+       private int getQuantityOfAllCleaningAndWashingProducts() {
         List<WebElement> products = driver.findElements(allCleaningAndWashingProducts);
         return products.size();
     }

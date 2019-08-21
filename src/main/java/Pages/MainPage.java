@@ -19,9 +19,9 @@ public class MainPage extends BasePage {
         return this;
     }
 
-    //public MainPage() {
-    //  Assert.assertEquals(getDriver().findElement(newSelerText).getText(), "БРЕНДЫ");
-    //}
+    public MainPage() {
+      Assert.assertEquals(getDriver().findElement(newSelerText).getText(), "БРЕНДЫ");
+    }
 
     public PersonalCarePage clickPersonalCare() {
         getDriver().findElement(personalCare).click();
