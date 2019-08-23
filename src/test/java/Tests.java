@@ -32,8 +32,7 @@ public class Tests extends BaseTest {
         softAssert.assertEquals(bathAndShowerPage.isRandomProductNotHavePromo(), "Product has old price value");
         softAssert.assertAll();
     }
-
-    /* @Test
+     @Test
      public void AllPriceOfGoods() throws InterruptedException {
          HairCarePage hairCarePage = mainPage.clickCloseWindow()
                  .clickPersonalCare()
@@ -43,8 +42,8 @@ public class Tests extends BaseTest {
          softAssert1.assertAll();
 
 
-     }*/
-   /* @Test
+     }
+    @Test
     public void GoodsNotMeans() throws InterruptedException {
         //Thread.sleep(15000);
         CleaningAndWashingProductsPage cleaningAndWashingProductsPage = mainPage.clickCloseWindow()
@@ -53,5 +52,5 @@ public class Tests extends BaseTest {
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(cleaningAndWashingProductsPage.isProductNotHaveName(), "Product has name value");
         softAssert.assertAll();
-    }*/
+    }
 }

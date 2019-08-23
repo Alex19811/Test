@@ -3,6 +3,7 @@ package Pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
+
 import java.util.List;
 
 public class HairCarePage<puplic> extends BasePage {
@@ -11,13 +12,8 @@ public class HairCarePage<puplic> extends BasePage {
     private By allProductsHairCare = By.xpath("//div[@class='product_box']");
     private By productOfPrice = By.xpath(".//span[contains(@id,'product-price')]");
     private By productName = By.xpath(".//a[contains(@class, 'product-item-link')]");
-   // private static By nextPage = By.xpath("//li[@class='item pages-item-next']");
     private static By allPage = By.xpath("//div[@class='pages']");
 
-   /* public HairCarePage clickNextPage() {
-        getDriver().findElement(nextPage).click();
-        return new HairCarePage();
-    }*/
 
     private int getQuantityOfAllProducts() {
         List<WebElement> products = driver.findElements(allProductsHairCare);
@@ -36,7 +32,7 @@ public class HairCarePage<puplic> extends BasePage {
 
     public String isProductNotHavePrice() {
 
-       List<WebElement> products = driver.findElements(allProductsHairCare);
+        List<WebElement> products = driver.findElements(allProductsHairCare);
 
         List<WebElement> page = driver.findElements(allPage);
         int i = getPage();
